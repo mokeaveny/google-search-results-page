@@ -1,0 +1,69 @@
+.overhead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 700px;
+  height: 100px;
+  z-index: 100;
+  white-space: nowrap;
+  border-bottom: 2px solid gray;
+}
+
+#googleLogo {
+  width: 5%;
+  height: 65%;
+  position: relative;
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  float: left;
+}
+
+#google-search {
+  border: 2px solid;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  width: 28%;
+  height: 35%;
+  float: left;
+  font-size: 19px;
+  float: left;
+  margin-top: 1%;
+  margin-left: 2.5%;
+  padding-left: 0.5%;
+}
+
+
+#google-search: focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+::placeholder {
+  font-size: 19px;
+}
+
+#searchIcon {
+  height: 50%;
+  width: 3%;
+  padding-top: 0.6%;
+  padding-left: 28%;
+  position: absolute;
+}
+
+#googleMicrophone {
+  height: 25%;
+  width: 0.8%;
+  padding-top: 1.2%;
+  padding-left: 27%;
+  position: absolute;
+}
+
+#googleAppsIcon {
+  height: 50%;
+  width: 2.5%;
+  padding-top: 0.8%;
+  padding-right: 0.8%;
+  float: right;
+}
