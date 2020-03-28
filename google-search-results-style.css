@@ -67,3 +67,26 @@
   padding-right: 0.8%;
   float: right;
 }
+
+.main-page {
+  display: grid;
+  margin-top: 4.5%;
+  grid-template-columns: [blank1] 10% [content] 25% [blank2] 65%;
+}
+
+.blankColumn1 {
+  grid-column-start: blank1;
+  grid-column-end: content;
+  background-color: #F0F8FF;
+}
+
+.column-content {
+  grid-column-start: content;
+  grid-column-end: blank2;
+}
+
+.blankColumn2 {
+  grid-column-start: blank2;
+  grid-column-end: end;
+  background-color: #F0F8FF;
+}
